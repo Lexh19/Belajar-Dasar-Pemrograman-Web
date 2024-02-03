@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iqbaal Hafiizhuddiin</title>
+  </head>
+  <body>
+    <header>
+      <h1>Iqbaal Hafiizhuddiin</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tentang.html">Tentang Kami</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <img class="image1" src="img/foto-formal1.jpg" />
+        <h2>Hai saya Iqbaal Hafiizhuddiin</h2>
+        <p>
+          Mahasiswa aktif Universitas Negeri Yogyakarta program studi Teknologi
+          Informasi angkatan 2021. Dalam program studi saya, saya memiliki minat
+          khusus di bidang Frontend Development dan telah memiliki beberapa
+          pengalaman yang relevan dalam bidang tersebut.
+        </p>
+      </article>
+
+     
+    </main>
+
+    <footer>
+      <p>Hak Cipta © Iqbaal Hafiizhuddiin</p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  main {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  header {
+    background-color: rgba(0, 80, 189, 1);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  header ul {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  header ul li {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  header ul li a {
+    border-radius: 1.25rem;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 2px;
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+  }
+
+  header ul li a:hover {
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.1
+    ); 
+  }
+
+  footer {
+    background-color: rgba(0, 80, 189, 1);
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+  }
+ 
+  .span {
+    
+    font-weight: bolder;
+  }
+  article {
+    flex: 2;
+    margin-right: 20px;
+    text-align: left;
+  }
+
+  aside {
+    flex: 1;
+  }
+
+  .image1 {
+    max-width: 20%;
+    height: auto;
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+</style>
